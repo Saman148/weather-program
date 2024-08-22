@@ -62,7 +62,7 @@ class WeatherGUI(Tk):
             
 
             city = en_search.get()
-            api_key = ''
+            api_key = '' #your api key
             try:
                 res = requests.get(f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric').json()
                 lat = res['coord']['lat']
