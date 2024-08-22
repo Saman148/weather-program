@@ -27,7 +27,7 @@ Main page section </br>
 
 <h1 id='Modules'>Modules</h1>
 
-1. PLI
+1. PIL
 
 ```bash
 pip install pillow
